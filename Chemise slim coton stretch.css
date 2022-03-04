@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.accueil >a{
+    color: rgb(143, 122, 122);
+    font-size: larger;
+    text-decoration-line: none
+}
+#options{
+    padding: 19px;
+    margin: -6px;
+    border: 1px solid white;
+    font-size: 18px;
+    margin-left: -196px;
+    padding-right: 20px;
+    margin-right: 142px;
+    
+}
+.AVISVÉRIFIÉS  a:hover {
+    background-color: rgb(209, 209, 209);
+}
+#bande_horizontale{
+    border-left: 1px solid grey;
+    background-color: grey;
+    position: absolute;
+    right: 700px;
+    margin-top: 290px;
+    height: 151px;
+}
+
+.trier-les-avis   {
+    margin-top: 469px;
+    margin-left: 51px;
+}
+.oui, .non {
+    color: #4e4e4e;
+    background-color: #dedede;
+    border: 1px solid #dedede;
+        width: 68px;
+}
+.oui input , .non input{
+    color: white;
+    background-color: #adadad;
+    border: 1px solid #adadad;
+    width: 21px;
+}
+.oui:hover, .non:hover ,.oui input:hover , .non input:hover{
+    background: #333;
+    border: 1px solid #333;
+    color: white;
+}
+hr{
+    border: 1px solid white;
+    padding: 1px;
+    width: 897px;
+    background-color: white;
+}.grid-containerr  a{
+    text-decoration: none;
+    color: white;
+}
+.last-input{
+    padding: 7px;
+    width: 230px;
+    color: white;
+    background-color: #adadad;
+    border: 1px solid #adadad;
+    margin-left: 348px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.last-input:hover{
+    color: white;
+    background-color: #333;
+    border: 1px solid #333
+}
+ a{
+    text-decoration: none;
+    color: #333;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-left: 66px;
+    margin-top: 149px;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-right: 30px;
+  }

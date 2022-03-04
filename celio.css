@@ -1,0 +1,145 @@
+body{
+  margin: 0px;
+}
+.acounter{
+  border: 1px solid black;
+  border-radius: 50px 50px 50px 50px;
+  background-color: black;
+  color: white;
+  height: 22px;
+  width: 22px;
+  text-align:center ;
+  padding: 1.3px;
+}
+.second , .third {
+  display:flex;
+  justify-content:space-around;
+  height: 73px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.third{
+    
+  margin-top: 18px;
+  text-align: center;
+  margin-right: 105px;
+  margin-left: 105px;
+}
+.third a ,.flags a{
+  text-decoration: none;
+  color: blue;
+  }
+span{
+  color: red;
+} 
+.flags{
+  position: relative;
+  display: inline-block;
+}
+.flags:hover .dropdown{
+  display: block;
+}
+.flags .dropdown{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.flags .dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+.flags .dropdown a:hover{
+  background-color: #f1f1f1
+}
+.dropbtn {
+  background-color: unset;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 1197px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: max-content;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: unset;
+}
+.midel .grid-container{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+.grid-container .grid-item img{
+  height: 484px;
+  }
+#grid-item{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-right: 299px;
+  margin-left: 299px;
+}
+.grid-container .container-item a {
+  text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.grid-containerr  a{
+text-decoration: none;
+color: white;
+}
+.last a {
+text-decoration: none;
+color: #333;
+}
+/*.W {
+  border-left: 2px solid rgb(45, 46, 45);
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}*/
+.footer{
+  background-color:black;
+  color: white;
+  padding-left: 12px;
+  margin-top: 149px;
+}
